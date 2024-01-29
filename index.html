@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <title>Galahad Tailwind</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link
+      href="assets/css/galahad.css"
+      rel="stylesheet"
+      type="text/css"
+      id="galahadcss"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/themes/odometer-theme-minimal.min.css"
+    />
+  </head>
+  <body>
+    <!-- START HERO -->
+    <section
+      class="hero"
+      style="background-image: url('assets/images/galahad/Start1.png')"
+    >
+      <!-- NAVBAR START -->
+      <div class="topbar">
+        <div id="topbar-logo">
+          <!-- logo START -->
+          <a href="#">
+            <img
+              id="nav-logo"
+              src="assets/images/galahad/icon-galahad.svg"
+              alt="nav-logo"
+            />
+            <img
+              id="nav-text"
+              src="assets/images/galahad/galahad.svg"
+              alt="nav-text"
+            />
+          </a>
+          <!-- logo END -->
+
+          <a id="launch-apps" href="#" class="launch-apps"> Launch Apps </a>
+          <a href="#" class="early-access"> Early Access <i class=""></i> </a>
+
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- NAVBAR END -->
+
+      <div class="parallax" onclick="toggleDiameter()">
+        <svg
+          id="ellipse-big"
+          width="660"
+          height="660"
+          viewBox="0 0 660 660"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            id="ellipse-circle"
+            cx="330"
+            cy="330"
+            r="325"
+            stroke="url(#paint0_linear_929_4558)"
+            stroke-width="10"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear_929_4558"
+              x1="187.429"
+              y1="-361.509"
+              x2="901.725"
+              y2="13.5715"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#86EDAA" />
+              <stop offset="1" stop-color="#4857EA" />
+            </linearGradient>
+          </defs>
+        </svg>
+        <!-- <img id="ellipse-small" src="assets/images/galahad/ellipse-small.svg" alt="ellipse-small" width="240"> -->
+        <!-- <img id="ellipse-big" src="assets/images/galahad/ellipse-big.svg" alt="ellipse-big" width="700"> -->
+        <img
+          id="galahad2"
+          src="assets/images/galahad/galahad-2-1.svg"
+          alt="galahad2"
+        />
+        <img
+          id="galahad1"
+          src="assets/images/galahad/galahad-1-1.svg"
+          alt="galahad1"
+          width="500"
+        />
+        <div class="parallax-text">
+          <h1>
+            New exciting protocol that will <br />revolutionize the world of
+            <br />decentralized finance
+          </h1>
+          <h4>
+            First DeFi protocol that allows users to borrow against their ETH
+            while <br />earning yield from the LSD protocol on Layer 1 -
+            Ethereum.
+          </h4>
+        </div>
+      </div>
+    </section>
+    <!-- END HERO -->
+
+    <!-- START LAPTOP -->
+    <section id="laptop">
+      <div class="laptop-header">
+        <h4>
+          <span>Launch Faster</span>
+        </h4>
+        <h1>
+          <span>Galahad Apps</span>
+        </h1>
+        <p class="">
+          We’ve done all the heavy lifting so you don’t have to — get all the
+          data you need to <br />launch and grow your business faster.
+        </p>
+      </div>
+
+      <div class="laptop-body">
+        <div class="laptop-body-left">
+          <div class="laptop-grid">
+            <div class="laptop-grid-content">
+              <h1 class="odometer" id="odometer1">0001</h1>
+              <h4>Total Global Users</h4>
+              <p>We've helped over 4,000 amazing global users.</p>
+            </div>
+
+            <div class="laptop-grid-content">
+              <h1 class="odometer" id="odometer2">0001</h1>
+              <h4>Total Value Lock</h4>
+              <p>Weve helped over 4,000 amazing global companies.</p>
+            </div>
+
+            <div class="laptop-grid-content">
+              <h1 class="odometer" id="odometer3">0001</h1>
+              <h4>Total Global Users</h4>
+              <p>We’ve helped over 4,000 amazing global users.</p>
+            </div>
+
+            <div class="laptop-grid-content">
+              <h1 class="odometer" id="odometer4">0001</h1>
+              <h4>Total Value Locks</h4>
+              <p>We’ve helped over 4,000 amazing global companies.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="laptop-right">
+          <img
+            src="assets/images/galahad/Group33887.png"
+            alt="laptop-galahad"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- END HERO -->
+
+    <!-- START KEY FEATURES -->
+    <section
+      id="key-features"
+      style="background-image: url('assets/images/galahad/bg-people.svg')"
+    >
+      <div class="key-features-header">
+        <h1>
+          <span>Key Features</span>
+        </h1>
+        <p>
+          Galahad Finance's key features combine advanced technology,
+          affordability, <br />security, and user-friendliness to create a
+          powerful and inclusive financial platform.
+        </p>
+      </div>
+
+      <div class="key-features-body">
+        <div class="key-features-body-left">
+          <div class="accordion-custom">
+            <div class="accordion-item active" onclick="changeImage(1)">
+              <div class="accordion-header">
+                <img src="assets/images/galahad/icon1.svg" alt="icon1" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 100 100"
+                  width="10"
+                  height="10"
+                >
+                  <circle cx="50" cy="50" r="50" fill="#B5B9C0" />
+                </svg>
+                <h4>0% Interest Rate</h4>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  One of the standout features of Galahad Finance is its 0%
+                  interest rate on borrowed funds. This means that users can
+                  access loans without incurring any additional cost, making
+                  them highly attractive for borrowers. The 0% interest rate
+                  sets Galahad Finance apart from many other lending platforms
+                  that typically charge interest on borrowed funds
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item" onclick="changeImage(2)">
+              <div class="accordion-header">
+                <img src="assets/images/galahad/icon2.svg" alt="icon2" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 100 100"
+                  width="10"
+                  height="10"
+                >
+                  <circle cx="50" cy="50" r="50" fill="#B5B9C0" />
+                </svg>
+                <h4>Secure</h4>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Galahad Finance places a strong emphasis on security . Galahad
+                  Finance will be audited multiple times by multiple top notch
+                  audit firm with reputable track records. Users can trust that
+                  their assetsand transactions are protected by the platform’s
+                  security measures
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item" onclick="changeImage(3)">
+              <div class="accordion-header">
+                <img src="assets/images/galahad/icon3.svg" alt="icon3" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 100 100"
+                  width="10"
+                  height="10"
+                >
+                  <circle cx="50" cy="50" r="50" fill="#B5B9C0" />
+                </svg>
+
+                <h4>Yield Bearing</h4>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  Galahad Finance introduces a unique opportunity for users to
+                  earn yield while borrowing against their Ethereum holdings. By
+                  utilizing the LSD protocol on Arbitrum, users can generate
+                  passive income from their deposited assets. The yield-earning
+                  mechanism enables users to optimize their borrowing strategy
+                  and enhance their overall profitability within the Galahad
+                  Finance ecosystem.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item" onclick="changeImage(4)">
+              <div class="accordion-header">
+                <img src="assets/images/galahad/icon4.svg" alt="icon4" />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 100 100"
+                  width="10"
+                  height="10"
+                >
+                  <circle cx="50" cy="50" r="50" fill="#B5B9C0" />
+                </svg>
+                <h4>0% Loan Fee</h4>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  In addition to the 0% interest rate, Galahad Finance charges
+                  0% loan fees to borrowers. This means that users can access
+                  loans without incurring any upfront fees, further enhancing
+                  the cost-effectiveness and attractiveness of borrowing through
+                  Galahad Finance.
+                </p>
+              </div>
+            </div>
+
+            <div class="accordion-item" onclick="changeImage(5)">
+              <div class="accordion-header">
+                <img
+                  src="assets/images/galahad/icon5.svg"
+                  alt="icon5 max-h-0 overflow-hidden"
+                />
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 100 100"
+                  width="10"
+                  height="10"
+                >
+                  <circle cx="50" cy="50" r="50" fill="#B5B9C0" />
+                </svg>
+                <h4>Minimum Collateral of 150%</h4>
+              </div>
+              <div class="accordion-content">
+                <p>
+                  To ensure the security and stability of its lending platform,
+                  Galahad Finance requires borrowers to provide collateral worth
+                  at least 150% of the borrowed amount. This collateralization
+                  ratio mitigates the risk of default and safeguards lenders'
+                  funds.By maintaining a minimum collateral requirement, Galahad
+                  Finance ensures a prudent lending environment for both
+                  borrowers and lenders.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="key-features-body-right">
+          <div class="key-features-images">
+            <img
+              id="background"
+              src="assets/images/galahad/bg-gradient.svg"
+              alt="Group"
+            />
+            <img
+              id="image1"
+              src="assets/images/galahad/Group.svg"
+              alt="Group 1"
+            />
+            <img
+              id="image2"
+              src="assets/images/galahad/Grouptest.svg"
+              alt="Group 2"
+            />
+            <img
+              id="image3"
+              src="assets/images/galahad/Group2.svg"
+              alt="Group 3"
+            />
+            <img
+              id="image4"
+              src="assets/images/galahad/Group3.svg"
+              alt="Group 4"
+            />
+            <img
+              id="image5"
+              src="assets/images/galahad/Group4.svg"
+              alt="Group 5"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END KEY FEATURES -->
+
+    <!-- START FAQ -->
+    <section id="faq-section">
+      <div class="faq-header">
+        <h1>
+          <span>FAQ</span>
+        </h1>
+      </div>
+
+      <div class="faq-body">
+        <div class="faq">
+          <div class="question">
+            <h4>What is galahad finance?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              ></circle>
+              <line x1="12" y1="7" x2="12" y2="17"></line>
+              <line x1="7" y1="12" x2="17" y2="12"></line>
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur tenetur quasi magni in maxime eos ullam hic iusto
+              velit amet? Iusto soluta optio rem, ad dicta ratione ipsam odit
+              dolores?
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <h4>What are Galahad Finance’s Key Features?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              ></circle>
+              <line x1="12" y1="7" x2="12" y2="17"></line>
+              <line x1="7" y1="12" x2="17" y2="12"></line>
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur tenetur quasi magni in maxime eos ullam hic iusto
+              velit amet? Iusto soluta optio rem, ad dicta ratione ipsam odit
+              dolores?
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <h4>Why do we need Galahad Finance?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              ></circle>
+              <line x1="12" y1="7" x2="12" y2="17"></line>
+              <line x1="7" y1="12" x2="17" y2="12"></line>
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur tenetur quasi magni in maxime eos ullam hic iusto
+              velit amet? Iusto soluta optio rem, ad dicta ratione ipsam odit
+              dolores?
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <h4>Why do we need Galahad Finance?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              ></circle>
+              <line x1="12" y1="7" x2="12" y2="17"></line>
+              <line x1="7" y1="12" x2="17" y2="12"></line>
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur tenetur quasi magni in maxime eos ullam hic iusto
+              velit amet? Iusto soluta optio rem, ad dicta ratione ipsam odit
+              dolores?
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <h4>What is $GFC?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              ></circle>
+              <line x1="12" y1="7" x2="12" y2="17"></line>
+              <line x1="7" y1="12" x2="17" y2="12"></line>
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur tenetur quasi magni in maxime eos ullam hic iusto
+              velit amet? Iusto soluta optio rem, ad dicta ratione ipsam odit
+              dolores?
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <h4>What is $gfUSD?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              ></circle>
+              <line x1="12" y1="7" x2="12" y2="17"></line>
+              <line x1="7" y1="12" x2="17" y2="12"></line>
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur tenetur quasi magni in maxime eos ullam hic iusto
+              velit amet? Iusto soluta optio rem, ad dicta ratione ipsam odit
+              dolores?
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question">
+            <h4>How to convert $xGFC to $GFC?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              ></circle>
+              <line x1="12" y1="7" x2="12" y2="17"></line>
+              <line x1="7" y1="12" x2="17" y2="12"></line>
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur tenetur quasi magni in maxime eos ullam hic iusto
+              velit amet? Iusto soluta optio rem, ad dicta ratione ipsam odit
+              dolores?
+            </p>
+          </div>
+        </div>
+
+        <div class="faq">
+          <div class="question flex justify-between font-bold text-[#0657a8]">
+            <h4>How does $gfUSD generates yield?</h4>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="2"
+                fill="none"
+              ></circle>
+              <line x1="12" y1="7" x2="12" y2="17"></line>
+              <line x1="7" y1="12" x2="17" y2="12"></line>
+            </svg>
+          </div>
+          <div class="answer">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consectetur tenetur quasi magni in maxime eos ullam hic iusto
+              velit amet? Iusto soluta optio rem, ad dicta ratione ipsam odit
+              dolores?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FAQ -->
+
+    <!-- START FOOTER -->
+    <section
+      class="footer-galahad"
+      style="background-image: url('assets/images/galahad/footer.png')"
+    >
+      <div class="footer-body">
+        <div class="footer-top">
+          <div class="footer-logo">
+            <img
+              src="assets/images/galahad/icon-galahad.svg"
+              alt=""
+              height="40"
+            />
+            <img src="assets/images/galahad/galahad.svg" alt="" height="40" />
+          </div>
+          <div class="footer-social">
+            <ul class="social-media">
+              <li class="app-media">
+                <a href="javascript: void(0);" class=""
+                  ><img src="/assets/images/galahad/icon-telegram.svg" alt=""
+                /></a>
+              </li>
+              <li class="app-media">
+                <a href="javascript: void(0);" class=""
+                  ><img src="/assets/images/galahad/icon-x.svg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="footer-incubated">
+            <p>incubated by :</p>
+            <img
+              src="/assets/images/galahad/GGG.svg"
+              alt="logo-GGG"
+              width="150"
+            />
+          </div>
+          <div class="footer-menu">
+            <ul class="footer-list">
+              <li class="footer-option"><a href="#">Whitepaper</a></li>
+              <li class="footer-option"><a href="#">FAQ's</a></li>
+              <li class="footer-option"><a href="#">Support</a></li>
+              <li class="footer-option">
+                <a href="#">Documentation</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END FOOTER -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.8/odometer.min.js"></script>
+
+    <script src="assets/js/test.js"></script>
+  </body>
+</html>
